@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- import the webpage's stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <section class="main_container">
+    <header class="header">
+    </header>
+    <!-----------------------------MAIN CONTENT CONTAINER-->
+    <div class="main_content_container">
+      <!-- SIDE BAR CONTAINER-->
+      <div class="side_bar">
+        <div class="side_bar_content">
+          <ul>
+          </ul>
+        </div>
+        <div class="button_container" id="button_container">
+        </div>
+
+      </div>
+      <!-- EPISODES MAIN CONTAINER -->
+      <div class="episode_main_container">
+        <div class="episodes_content">
+          <div class="episode_details">
+            <p id="episode_name"></p>
+            <p id="episode_code"> </p>
+            <p id="episode_date"></p>
+          </div>
+          <div class="character_container">
+            <div class="character_content" id="character_content">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+    </footer>
+  </section>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <!-- import the webpage's javascript file -->
+  <script src="script.js" defer></script>
+</body>
+
+</html>
